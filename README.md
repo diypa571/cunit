@@ -1,11 +1,12 @@
 # cunit
 
-Installing cunit.. I hope this guide will help anyone to easily install cunit and use it for testing...
-mkdir -p $HOME/local
-./configure --prefix=$HOME/local
-make clean
-make
-make install
+Installing cunit    
+I hope this guide will help anyone to easily install cunit and use it for testing...   
+mkdir -p $HOME/local    
+./configure --prefix=$HOME/local    
+make clean    
+make    
+make install   
 *************
 *gcc -Wall -I$HOME/local/include mytest.c -L$HOME/local/lib -lcunit -o myprogram
 
