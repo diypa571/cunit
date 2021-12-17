@@ -13,7 +13,11 @@ make install
 
 
 ## Remember to include the CUnit header files...    
-#include <CUnit/CUnit.h>    
+#include "CUnit/CUnit.h"
+#include "CUnit/Basic.h"
+//#include "CUnit/Automated.h"
+//#include "CUnit/Console.h"
+
 
 
 ## gcc -Wall -c diypa.c    
