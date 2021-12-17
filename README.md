@@ -1,5 +1,4 @@
-![GitHub Dark](https://github.com/github-dark.png#gh-light-mode-only)
-# cunit    
+# Cunit    
 # I hope this guide will help anyone to easily install cunit and use it for testing applications in Linux...     
 ## Installing cunit     
  
