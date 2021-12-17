@@ -2,6 +2,15 @@
 # I hope this guide will help anyone to easily install cunit and use it for testing applications in Linux...     
 ## Installing cunit     
  
+ 
+# Alt 1:
+ sudo apt-get install libcunit1 libcunit1-doc libcunit1-dev
+For compile...
+gcc  -o app test.c  -lcunit
+ 
+ 
+# Alt 2
+ 
 mkdir -p $HOME/local    
 ./configure --prefix=$HOME/local    
 make clean    
