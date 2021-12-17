@@ -7,7 +7,7 @@ make clean
 make
 make install
 *************
-//gcc -Wall -I$HOME/local/include mytest.c -L$HOME/local/lib -lcunit -o myprogram
+*gcc -Wall -I$HOME/local/include mytest.c -L$HOME/local/lib -lcunit -o myprogram
 
 
 Remember to the include CUnit header files... 
