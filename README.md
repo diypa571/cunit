@@ -28,7 +28,7 @@ make install
 ## LD_LIBRARY_PATH=$HOME/local/lib ./diypa_test      
 
 
-# http://cunit.sourceforge.net/    
+> http://cunit.sourceforge.net/    
 
 
 
