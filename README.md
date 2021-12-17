@@ -1,5 +1,5 @@
   # cunit    
-# I hope this guide will help anyone to easily install cunit and use it for testing...     
+# I hope this guide will help anyone to easily install cunit and use it for testing applications in Linux...     
 ## Installing cunit     
  
 mkdir -p $HOME/local    
