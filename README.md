@@ -6,26 +6,27 @@ mkdir -p $HOME/local
 ./configure --prefix=$HOME/local    
 make clean    
 make    
-make install   
-*************
-*gcc -Wall -I$HOME/local/include mytest.c -L$HOME/local/lib -lcunit -o myprogram
+make install         
+ 
+ Compile ....     
+ gcc -Wall -I$HOME/local/include mytest.c -L$HOME/local/lib -lcunit -o myprogram     
 
 
-Remember to the include CUnit header files... 
-#include <CUnit/CUnit.h>
+Remember to the include CUnit header files...    
+#include <CUnit/CUnit.h>    
 
 
-gcc -Wall -c diypa.c
-gcc -Wall -I$HOME/local/include -o diypa_test diypa_test.c diypa.o -L$HOME/local/lib -lcunit
-LD_LIBRARY_PATH=$HOME/local/lib ./diypa_test 
+gcc -Wall -c diypa.c    
+gcc -Wall -I$HOME/local/include -o diypa_test diypa_test.c diypa.o -L$HOME/local/lib -lcunit    
+LD_LIBRARY_PATH=$HOME/local/lib ./diypa_test    
 
 
-http://cunit.sourceforge.net/
+http://cunit.sourceforge.net/    
 
 
 
-A very simple "black box"
-http://cunit.sourceforge.net/example.html
+A very simple "black box"     
+http://cunit.sourceforge.net/example.html     
 
 
 
