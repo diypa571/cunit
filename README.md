@@ -12,7 +12,7 @@ make install
  gcc -Wall -I$HOME/local/include mytest.c -L$HOME/local/lib -lcunit -o myprogram     
 
 
-Remember to the include CUnit header files...    
+Remember to include the CUnit header files...    
 #include <CUnit/CUnit.h>    
 
 
