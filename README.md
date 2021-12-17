@@ -17,8 +17,11 @@ make install
 
 
 ## gcc -Wall -c diypa.c    
-## gcc -Wall -I$HOME/local/include -o diypa_test diypa_test.c diypa.o -L$HOME/local/lib -lcunit    
-## LD_LIBRARY_PATH=$HOME/local/lib ./diypa_test    
+## gcc -Wall -I$HOME/local/include -o diypa_test diypa_test.c diypa.o -L$HOME/local/lib -lcunit      
+
+
+#  For runing the application      
+## LD_LIBRARY_PATH=$HOME/local/lib ./diypa_test      
 
 
 # http://cunit.sourceforge.net/    
